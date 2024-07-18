@@ -1,0 +1,11 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_executiveDirectorApplication7870691027
+    - consumer
+_workspace: TelusDigitalTest
+consumers:
+  - username: executiveDirectorApplication7870691027
+    custom_id: f9a0e648-ef07-4054-9bba-8ae5969d4e9b
+    acls: []

@@ -1,0 +1,14 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_executiveDirectorApplication7870691027
+    - consumer
+_workspace: TSBTSOAPSAMLTest
+consumers:
+  - username: executiveDirectorApplication7870691027
+    custom_id: f9a0e648-ef07-4054-9bba-8ae5969d4e9b
+    acls: []
+    basicauth_credentials:
+      - password: $SECRET_executiveDirectorApplication7870691027_NP$
+        username: F9A0E648-EF07-4054-9BBA-8AE5969D4E9B
