@@ -1,0 +1,11 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_consultantApplication2418977575
+    - consumer
+_workspace: TSBTSOAPSAMLTest
+consumers:
+  - username: consultantApplication2418977575
+    custom_id: 288ad381-cf4e-437d-857a-856331ad41ed
+    acls: []
