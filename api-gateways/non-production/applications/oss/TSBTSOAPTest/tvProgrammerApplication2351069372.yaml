@@ -1,0 +1,11 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_tvProgrammerApplication2351069372
+    - consumer
+_workspace: TSBTSOAPTest
+consumers:
+  - username: tvProgrammerApplication2351069372
+    custom_id: 72f2ac73-0a59-426c-8ead-8498118a99c2
+    acls: []
