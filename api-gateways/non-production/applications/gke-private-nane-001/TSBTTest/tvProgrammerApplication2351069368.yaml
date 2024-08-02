@@ -1,0 +1,11 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_tvProgrammerApplication2351069368
+    - consumer
+_workspace: TSBTTest
+consumers:
+  - username: tvProgrammerApplication2351069368
+    custom_id: 52b35af3-683f-43d5-9e17-fa10ba2fc1b8
+    acls: []
