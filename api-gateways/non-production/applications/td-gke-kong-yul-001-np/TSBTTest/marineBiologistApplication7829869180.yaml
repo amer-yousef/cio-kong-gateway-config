@@ -1,0 +1,11 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_marineBiologistApplication7829869180
+    - consumer
+_workspace: TSBTTest
+consumers:
+  - username: marineBiologistApplication7829869180
+    custom_id: 95812541-45b0-44bb-b966-7e24291bd6bd
+    acls: []
