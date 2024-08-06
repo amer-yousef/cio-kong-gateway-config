@@ -1,0 +1,11 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_cosmetologistApplication5381507488
+    - consumer
+_workspace: TSBTSOAPSAMLTest
+consumers:
+  - username: cosmetologistApplication5381507488
+    custom_id: 77facb43-459e-4152-a001-c644576953bc
+    acls: []
