@@ -140,8 +140,6 @@ services:
               login_methods:
                 - authorization_code
               login_tokens: []
-              token_endpoint: https://apigw-st.telus.com/st/ci/token
-              token_endpoint_auth_method: client_secret_basic
               auth_methods:
                 - password
                 - client_credentials
@@ -171,7 +169,6 @@ services:
               authorization_cookie_httponly: true
               authorization_cookie_name: lobbyistApplication9928833095-authz
               authorization_cookie_lifetime: 28800
-              authorization_endpoint: https://telusidentity-pp.telus.com/as/authorization.oauth2
               password_param_type:
                 - header
                 - query
@@ -180,8 +177,7 @@ services:
               cache_tokens: true
               cache_user_info: true
               extra_jwks_uris:
-                - https://apigw-st.telus.com/st/ci/jwks
-                - https://apigw-st.telus.com/st/ci/id/jwks
+                - null
               consumer_by: []
               verify_claims: true
               consumer_claim: []
@@ -191,7 +187,6 @@ services:
                 - body
               credential_claim:
                 - sub
-              issuer: https://telusidentity-pp.telus.com
               verify_nonce: true
               scopes_claim:
                 - scope
