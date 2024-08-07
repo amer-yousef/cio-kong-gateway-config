@@ -1,0 +1,11 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_technicalWriterApplication8493293208
+    - consumer
+_workspace: TSBTSOAPSAMLTest
+consumers:
+  - username: technicalWriterApplication8493293208
+    custom_id: c398e62b-74bc-466b-a5d3-bf83cba52f7a
+    acls: []
