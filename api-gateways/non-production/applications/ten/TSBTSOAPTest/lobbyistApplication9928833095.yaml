@@ -1,0 +1,11 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_lobbyistApplication9928833095
+    - consumer
+_workspace: TSBTSOAPTest
+consumers:
+  - username: lobbyistApplication9928833095
+    custom_id: e5ead549-35c5-4f92-8e4d-a08175c6dedd
+    acls: []
