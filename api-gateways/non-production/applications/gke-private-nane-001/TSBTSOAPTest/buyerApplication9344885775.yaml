@@ -1,0 +1,11 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_buyerApplication9344885775
+    - consumer
+_workspace: TSBTSOAPTest
+consumers:
+  - username: buyerApplication9344885775
+    custom_id: 2b282ced-833a-446a-8fe3-78be09086ad2
+    acls: []
