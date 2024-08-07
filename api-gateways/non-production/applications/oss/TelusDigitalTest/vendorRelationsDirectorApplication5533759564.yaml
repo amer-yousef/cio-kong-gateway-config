@@ -1,0 +1,11 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_vendorRelationsDirectorApplication5533759564
+    - consumer
+_workspace: TelusDigitalTest
+consumers:
+  - username: vendorRelationsDirectorApplication5533759564
+    custom_id: 72cc154b-a62b-4530-b66a-cdc2af5fcbc0
+    acls: []
