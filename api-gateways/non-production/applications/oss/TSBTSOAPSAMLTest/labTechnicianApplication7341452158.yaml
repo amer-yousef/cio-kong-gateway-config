@@ -1,0 +1,11 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_labTechnicianApplication7341452158
+    - consumer
+_workspace: TSBTSOAPSAMLTest
+consumers:
+  - username: labTechnicianApplication7341452158
+    custom_id: 4c9a8cc7-df37-419d-9548-800db47fac99
+    acls: []
