@@ -8,7 +8,7 @@ _workspace: seminarPresenterApplication5337142970
 services:
   - name: seminarPresenterApplication5337142970
     host: api-marketplace-ng-portal-ui-dev.api-marketplace-ng-ui.svc.cluster.local
-    path: /v3
+    path: /v4
     port: 3000
     protocol: http
     retries: 2
