@@ -1,0 +1,11 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_seminarPresenterApplication5337142970
+    - consumer
+_workspace: TSBTSOAPSAMLTest
+consumers:
+  - username: seminarPresenterApplication5337142970
+    custom_id: c036367b-47d6-4b33-99f3-c7efd5817da4
+    acls: []
