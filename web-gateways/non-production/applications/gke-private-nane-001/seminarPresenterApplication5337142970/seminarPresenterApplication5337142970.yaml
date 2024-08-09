@@ -227,7 +227,7 @@ services:
               bearer_token_param_type:
                 - header
               authorization_query_args_names:
-                - env
+                - it04
               authorization_query_args_values:
                 - it03
               session_redis_port: 6379
