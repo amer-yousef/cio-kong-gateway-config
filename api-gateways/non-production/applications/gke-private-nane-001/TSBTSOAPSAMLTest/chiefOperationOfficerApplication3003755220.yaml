@@ -1,0 +1,11 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_chiefOperationOfficerApplication3003755220
+    - consumer
+_workspace: TSBTSOAPSAMLTest
+consumers:
+  - username: chiefOperationOfficerApplication3003755220
+    custom_id: f573532a-98c7-490d-9779-ff19d6f97bc9
+    acls: []
