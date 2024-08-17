@@ -1,0 +1,14 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_tvProgrammerApplication23510693771
+    - consumer
+_workspace: TSBTSOAPTest
+consumers:
+  - username: tvProgrammerApplication23510693771
+    custom_id: 95251e00-be8e-4072-9391-6d693f2d194b
+    acls: []
+    basicauth_credentials:
+      - password: $SECRET_tvProgrammerApplication23510693771_NP$
+        username: 95251E00-BE8E-4072-9391-6D693F2D194B
