@@ -1,0 +1,11 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_DigitalShellApplication17
+    - consumer
+_workspace: TSBTTest
+consumers:
+  - username: DigitalShellApplication17
+    custom_id: 95251e00-be8f-2092-9401-6d693f2d194b
+    acls: []
