@@ -1,0 +1,14 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_tvProgrammerApplication2351069391
+    - consumer
+_workspace: TSBTLegacyTest
+consumers:
+  - username: tvProgrammerApplication2351069391
+    custom_id: 95251e00-be8d-4072-9398-6d693f2d194b
+    acls: []
+    basicauth_credentials:
+      - password: $SECRET_tvProgrammerApplication2351069391_NP$
+        username: 95251E00-BE8D-4072-9398-6D693F2D194B
