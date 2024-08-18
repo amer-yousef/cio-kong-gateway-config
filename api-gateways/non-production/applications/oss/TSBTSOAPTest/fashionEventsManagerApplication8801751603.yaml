@@ -1,0 +1,11 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_fashionEventsManagerApplication8801751603
+    - consumer
+_workspace: TSBTSOAPTest
+consumers:
+  - username: fashionEventsManagerApplication8801751603
+    custom_id: da2a94c9-ac2a-4e12-82ce-9abba7780367
+    acls: []
