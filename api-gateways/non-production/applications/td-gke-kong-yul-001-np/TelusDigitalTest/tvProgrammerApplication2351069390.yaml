@@ -1,0 +1,11 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_tvProgrammerApplication2351069390
+    - consumer
+_workspace: TelusDigitalTest
+consumers:
+  - username: tvProgrammerApplication2351069390
+    custom_id: 95251e00-be8d-4072-9397-6d693f2d194b
+    acls: []
