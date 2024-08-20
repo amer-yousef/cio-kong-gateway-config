@@ -1,0 +1,11 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_DigitalShellApplication22
+    - consumer
+_workspace: TSBTLegacyTest
+consumers:
+  - username: DigitalShellApplication22
+    custom_id: 95251e00-be8f-2092-9406-6d693f2d194b
+    acls: []
