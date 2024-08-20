@@ -1,0 +1,11 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_DigitalShellApplication23
+    - consumer
+_workspace: TSBTSOAPTest
+consumers:
+  - username: DigitalShellApplication23
+    custom_id: 95251e00-be8f-2092-9407-6d693f2d194b
+    acls: []
