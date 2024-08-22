@@ -30,7 +30,7 @@ services:
             - refresh_token
             - session
           redirect_uri:
-            - https://api-marketplace-ng-it-customer-test.cloudapps.telus.com/v1
+            - https://api-marketplace-ng-it-customer-test.cloudapps.telus.com/v2
           client_id:
             - 95251e00-be8f-2092-9408-6d693f2d194b
           client_secret:
@@ -119,7 +119,7 @@ services:
         protocols:
           - https
         paths:
-          - /v1
+          - /v2
         methods: []
         hosts:
           - api-marketplace-ng-it-customer-test.cloudapps.telus.com
