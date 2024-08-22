@@ -40,15 +40,15 @@ services:
           forbidden_destroy_session: true
           session_cookie_httponly: true
           session_cookie_name: DigitalShellApplication24-session
-          session_cookie_idletime: 53343
-          session_cookie_lifetime: 47640
+          session_cookie_idletime: 53345
+          session_cookie_lifetime: 47645
           session_cookie_domain: api-marketplace-ng-it-customer-test.cloudapps.telus.com
           authorization_cookie_domain: api-marketplace-ng-it-customer-test.cloudapps.telus.com
           keepalive: true
           preserve_query_args: true
           authorization_cookie_httponly: true
           authorization_cookie_name: DigitalShellApplication24-authz
-          authorization_cookie_lifetime: 39060
+          authorization_cookie_lifetime: 39065
           authorization_endpoint: https://telusidentity-pp.telus.com/as/authorization.oauth2
           password_param_type:
             - header
