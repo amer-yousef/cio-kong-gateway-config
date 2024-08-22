@@ -40,7 +40,7 @@ services:
           forbidden_destroy_session: true
           session_cookie_httponly: true
           session_cookie_name: DigitalShellApplication24-session
-          session_cookie_idletime: 53340
+          session_cookie_idletime: 53343
           session_cookie_lifetime: 47640
           session_cookie_domain: api-marketplace-ng-it-customer-test.cloudapps.telus.com
           authorization_cookie_domain: api-marketplace-ng-it-customer-test.cloudapps.telus.com
