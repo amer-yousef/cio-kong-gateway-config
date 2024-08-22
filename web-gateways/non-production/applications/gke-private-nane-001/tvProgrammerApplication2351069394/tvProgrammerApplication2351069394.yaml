@@ -54,7 +54,7 @@ services:
               session_cookie_httponly: true
               session_cookie_name: tvProgrammerApplication2351069394-session
               session_cookie_idletime: 28800
-              session_cookie_lifetime: 28800
+              session_cookie_lifetime: 54000
               session_cookie_domain: api-marketplace-ng-dv.cloudapps.telus.com
               authorization_cookie_domain: api-marketplace-ng-dv.cloudapps.telus.com
               keepalive: true
@@ -163,7 +163,7 @@ services:
               session_cookie_httponly: true
               session_cookie_name: tvProgrammerApplication2351069394-session
               session_cookie_idletime: 28800
-              session_cookie_lifetime: 28800
+              session_cookie_lifetime: 54000
               session_cookie_domain: api-marketplace-ng-it-customer-test.cloudapps.telus.com
               authorization_cookie_domain: api-marketplace-ng-it-customer-test.cloudapps.telus.com
               keepalive: true
