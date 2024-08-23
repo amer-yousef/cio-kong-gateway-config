@@ -1,0 +1,14 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_databaseManagerApplication5734244557
+    - consumer
+_workspace: TSBTLegacyTest
+consumers:
+  - username: databaseManagerApplication5734244557
+    custom_id: b8df7463-132c-4256-8ee0-536a52685835
+    acls: []
+    basicauth_credentials:
+      - password: $SECRET_databaseManagerApplication5734244557_PR$
+        username: B8DF7463-132C-4256-8EE0-536A52685835
