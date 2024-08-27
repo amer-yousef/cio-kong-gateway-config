@@ -1,0 +1,129 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - DigitalShellApplication41
+    - service
+_workspace: DigitalShellApplication41
+services:
+  - name: DigitalShellApplication41
+    host: api-marketplace-ng-portal-ui-dev.api-marketplace-ng-ui.svc.cluster.local
+    path: /v1
+    port: 3000
+    protocol: http
+    retries: 0
+    plugins:
+      - name: openid-connect
+        config:
+          login_methods:
+            - authorization_code
+          login_tokens: []
+          token_endpoint: https://apigw-st.telus.com/st/ci/token
+          token_endpoint_auth_method: client_secret_basic
+          auth_methods:
+            - password
+            - client_credentials
+            - authorization_code
+            - bearer
+            - introspection
+            - kong_oauth2
+            - refresh_token
+            - session
+          redirect_uri:
+            - https://api-marketplace-ng-it-customer-test.cloudapps.telus.com/v1
+          client_id:
+            - 95251e00-be8f-2092-9426-6d693f2d194b
+          client_secret:
+            - $SECRET_DigitalShellApplication41_ci_NP$
+          cache_token_exchange: true
+          introspect_jwt_tokens: true
+          forbidden_destroy_session: true
+          session_cookie_httponly: true
+          session_cookie_name: DigitalShellApplication41-session
+          session_cookie_idletime: 28800
+          session_cookie_lifetime: 28800
+          session_cookie_domain: api-marketplace-ng-it-customer-test.cloudapps.telus.com
+          authorization_cookie_domain: api-marketplace-ng-it-customer-test.cloudapps.telus.com
+          keepalive: true
+          preserve_query_args: true
+          authorization_cookie_httponly: true
+          authorization_cookie_name: DigitalShellApplication41-authz
+          authorization_cookie_lifetime: 28800
+          authorization_endpoint: https://telusidentity-pp.telus.com/as/authorization.oauth2
+          password_param_type:
+            - header
+            - query
+            - body
+          cache_introspection: true
+          cache_tokens: true
+          cache_user_info: true
+          extra_jwks_uris:
+            - https://apigw-st.telus.com/st/ci/jwks
+            - https://apigw-st.telus.com/st/ci/id/jwks
+          consumer_by: []
+          verify_claims: true
+          consumer_claim: []
+          id_token_param_type:
+            - header
+            - query
+            - body
+          credential_claim:
+            - sub
+          issuer: https://telusidentity-pp.telus.com
+          verify_nonce: true
+          scopes_claim:
+            - scope
+          upstream_id_token_header: x-id-token
+          upstream_headers_claims:
+            - iss
+          upstream_headers_names:
+            - iss
+          upstream_access_token_header: authorization:bearer
+          refresh_token_param_type:
+            - header
+            - query
+            - body
+          client_credentials_param_type:
+            - header
+            - query
+            - body
+          audience_claim:
+            - aud
+          audience_required:
+            - kong
+          verify_signature: true
+          scopes_required:
+            - openid
+            - profile
+            - email
+          scopes:
+            - openid
+            - profile
+            - email
+          client_arg: client_id
+          login_action: redirect
+          bearer_token_param_type:
+            - header
+          authorization_query_args_names:
+            - env
+          authorization_query_args_values:
+            - it03
+          session_redis_port: 6379
+          session_redis_ssl: false
+          session_redis_ssl_verify: false
+          session_redis_prefix: sessions
+          session_redis_host: 10.64.0.12
+          session_storage: redis
+    routes:
+      - name: DigitalShellApplication41_ci
+        protocols:
+          - https
+        paths:
+          - /v1
+        methods: []
+        hosts:
+          - api-marketplace-ng-it-customer-test.cloudapps.telus.com
+        preserve_host: true
+        regex_priority: 0
+        strip_path: true
+        plugins: []
