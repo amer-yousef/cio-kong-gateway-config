@@ -1,0 +1,11 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_landscapeArchitectApplication8133071083
+    - consumer
+_workspace: TSBTSOAPSAMLTest
+consumers:
+  - username: landscapeArchitectApplication8133071083
+    custom_id: 3e680f73-747d-4198-8bbc-b3b0be0e1fef
+    acls: []
