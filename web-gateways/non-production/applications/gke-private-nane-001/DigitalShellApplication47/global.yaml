@@ -1,0 +1,19 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - DigitalShellApplication47
+    - global
+_workspace: DigitalShellApplication47
+plugins:
+  - name: cors
+    config:
+      origins:
+        - .*\.telus\.com$
+      credentials: true
+  - name: correlation-id
+    config:
+      header_name: Kong-Request-ID
+      generator: uuid#counter
+      echo_downstream: true
+consumers: []
