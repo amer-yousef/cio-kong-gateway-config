@@ -1,0 +1,11 @@
+_format_version: '1.1'
+_info:
+  defaults: {}
+  select_tags:
+    - app_PrimaveraApplication001
+    - consumer
+_workspace: TSBTTest
+consumers:
+  - username: PrimaveraApplication001
+    custom_id: 68cef6b9-b920-44f2-a917-043fd3b8ddbd
+    acls: []
